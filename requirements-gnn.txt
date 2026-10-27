@@ -1,0 +1,2 @@
+# Python 3.10+, PyTorch for GNN. The MFEA baseline uses the standard library.
+torch>=2.2,<3

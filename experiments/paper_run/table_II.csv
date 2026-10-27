@@ -1,0 +1,3 @@
+subset,paired,finite_pairs,NIB,NIE,NIW,rpd_pairs,maximum_RPD,average_RPD,average_RPD_improved,paper_NIB,paper_NIE,paper_maximum_RPD,paper_average_RPD
+set1,24,24,14,9,1,24,7.0247933884297495,0.8670481934296612,1.5811850193307457,18,6,41.7,13.2
+set2,18,18,12,0,6,18,3.6796536796536734,0.9458406186477997,1.9661028135004526,17,1,15.8,4.6

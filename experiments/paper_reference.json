@@ -1,0 +1,590 @@
+{
+  "source_pdf": "docs\\Multifactorial_Evolutionary_Algorithm_for_Inter-Domain_Path_Computation_under_Domain_Uniqueness_Constraint (1).pdf",
+  "source_sha256": "5d3170ac197798f3eabd0e8c02c7f5aea6313d512520021137aca27a0946fe66",
+  "doi": "10.1109/CEC48606.2020.9185701",
+  "tables": [
+    "III",
+    "IV"
+  ],
+  "pdf_page": 7,
+  "parameters": {
+    "runs": 30,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05
+  },
+  "instances": {
+    "idpc_10x10x1000.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 13.0,
+        "AVG": 13.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 7.0,
+        "AVG": 12.2,
+        "seconds": 1.0
+      }
+    },
+    "idpc_10x20x2713.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 12.0,
+        "AVG": 12.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 12.0,
+        "AVG": 12.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_10x5x425.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 12.0,
+        "AVG": 12.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 7.0,
+        "AVG": 7.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_15x15x3375.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 16.0,
+        "AVG": 16.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 10.0,
+        "AVG": 10.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_15x30x12111.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 16.0,
+        "AVG": 16.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 10.0,
+        "AVG": 10.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_15x7x1504.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 18.0,
+        "AVG": 18.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 18.0,
+        "AVG": 18.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_20x10x2492.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 22.0,
+        "AVG": 23.5,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 22.0,
+        "AVG": 22.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_20x20x8000.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 21.0,
+        "AVG": 21.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 15.0,
+        "AVG": 15.4,
+        "seconds": 1.0
+      }
+    },
+    "idpc_20x40x26104.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 21.0,
+        "AVG": 21.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 15.0,
+        "AVG": 15.2,
+        "seconds": 3.0
+      }
+    },
+    "idpc_25x12x4817.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 27.0,
+        "AVG": 27.9,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 27.0,
+        "AVG": 27.0,
+        "seconds": 1.0
+      }
+    },
+    "idpc_25x25x15625.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 26.0,
+        "AVG": 26.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 18.0,
+        "AVG": 24.1,
+        "seconds": 1.0
+      }
+    },
+    "idpc_25x50x57147.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 26.0,
+        "AVG": 26.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 18.0,
+        "AVG": 24.7,
+        "seconds": 3.0
+      }
+    },
+    "idpc_30x15x10025.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 33.0,
+        "AVG": 33.1,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 33.0,
+        "AVG": 33.0,
+        "seconds": 2.0
+      }
+    },
+    "idpc_30x30x27000.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 33.0,
+        "AVG": 34.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 32.0,
+        "AVG": 32.0,
+        "seconds": 6.0
+      }
+    },
+    "idpc_30x60x89772.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 32.0,
+        "AVG": 32.0,
+        "seconds": 2.0
+      },
+      "MFEA": {
+        "BF": 32.0,
+        "AVG": 32.0,
+        "seconds": 8.0
+      }
+    },
+    "idpc_35x17x13934.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 38.0,
+        "AVG": 44.5,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 38.0,
+        "AVG": 38.0,
+        "seconds": 2.0
+      }
+    },
+    "idpc_35x35x42875.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 39.0,
+        "AVG": 39.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 37.0,
+        "AVG": 37.0,
+        "seconds": 6.0
+      }
+    },
+    "idpc_35x70x123585.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 36.0,
+        "AVG": 36.0,
+        "seconds": 3.0
+      },
+      "MFEA": {
+        "BF": 28.0,
+        "AVG": 35.5,
+        "seconds": 8.0
+      }
+    },
+    "idpc_40x20x18485.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 42.0,
+        "AVG": 45.7,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 42.0,
+        "AVG": 42.0,
+        "seconds": 4.0
+      }
+    },
+    "idpc_40x40x64000.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 42.0,
+        "AVG": 42.1,
+        "seconds": 2.0
+      },
+      "MFEA": {
+        "BF": 42.0,
+        "AVG": 42.0,
+        "seconds": 10.0
+      }
+    },
+    "idpc_40x80x130681.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 42.0,
+        "AVG": 42.0,
+        "seconds": 3.0
+      },
+      "MFEA": {
+        "BF": 42.0,
+        "AVG": 42.0,
+        "seconds": 21.0
+      }
+    },
+    "idpc_45x22x43769.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 48.0,
+        "AVG": 49.0,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 47.0,
+        "AVG": 47.0,
+        "seconds": 4.0
+      }
+    },
+    "idpc_45x45x91125.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 46.0,
+        "AVG": 46.0,
+        "seconds": 3.0
+      },
+      "MFEA": {
+        "BF": 46.0,
+        "AVG": 46.0,
+        "seconds": 10.0
+      }
+    },
+    "idpc_45x90x322081.idpc": {
+      "set": "set1",
+      "EA": {
+        "BF": 46.0,
+        "AVG": 46.0,
+        "seconds": 7.0
+      },
+      "MFEA": {
+        "BF": 46.0,
+        "AVG": 46.0,
+        "seconds": 21.0
+      }
+    },
+    "idpc_100x100x1000000.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 103.0,
+        "AVG": 104.2,
+        "seconds": 21.0
+      },
+      "MFEA": {
+        "BF": 102.0,
+        "AVG": 102.0,
+        "seconds": 114.0
+      }
+    },
+    "idpc_100x200x2296097.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 101.0,
+        "AVG": 105.9,
+        "seconds": 38.0
+      },
+      "MFEA": {
+        "BF": 101.0,
+        "AVG": 101.0,
+        "seconds": 50.0
+      }
+    },
+    "idpc_100x50x461319.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 115.0,
+        "AVG": 121.2,
+        "seconds": 9.0
+      },
+      "MFEA": {
+        "BF": 102.0,
+        "AVG": 102.1,
+        "seconds": 56.0
+      }
+    },
+    "idpc_50x100x285357.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 52.0,
+        "AVG": 52.6,
+        "seconds": 7.0
+      },
+      "MFEA": {
+        "BF": 52.0,
+        "AVG": 52.0,
+        "seconds": 42.0
+      }
+    },
+    "idpc_50x25x38961.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 53.0,
+        "AVG": 60.8,
+        "seconds": 1.0
+      },
+      "MFEA": {
+        "BF": 53.0,
+        "AVG": 53.0,
+        "seconds": 11.0
+      }
+    },
+    "idpc_50x50x125000.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 53.0,
+        "AVG": 53.0,
+        "seconds": 4.0
+      },
+      "MFEA": {
+        "BF": 52.0,
+        "AVG": 52.0,
+        "seconds": 29.0
+      }
+    },
+    "idpc_60x120x434337.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 61.0,
+        "AVG": 61.2,
+        "seconds": 11.0
+      },
+      "MFEA": {
+        "BF": 61.0,
+        "AVG": 61.0,
+        "seconds": 42.0
+      }
+    },
+    "idpc_60x30x99470.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 64.0,
+        "AVG": 68.8,
+        "seconds": 2.0
+      },
+      "MFEA": {
+        "BF": 62.0,
+        "AVG": 62.0,
+        "seconds": 11.0
+      }
+    },
+    "idpc_60x60x216000.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 63.0,
+        "AVG": 63.3,
+        "seconds": 5.0
+      },
+      "MFEA": {
+        "BF": 62.0,
+        "AVG": 62.0,
+        "seconds": 29.0
+      }
+    },
+    "idpc_70x140x923343.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 73.0,
+        "AVG": 73.7,
+        "seconds": 20.0
+      },
+      "MFEA": {
+        "BF": 72.0,
+        "AVG": 72.0,
+        "seconds": 90.0
+      }
+    },
+    "idpc_70x35x120810.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 72.0,
+        "AVG": 72.0,
+        "seconds": 3.0
+      },
+      "MFEA": {
+        "BF": 72.0,
+        "AVG": 72.0,
+        "seconds": 23.0
+      }
+    },
+    "idpc_70x70x343000.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 71.0,
+        "AVG": 72.2,
+        "seconds": 6.0
+      },
+      "MFEA": {
+        "BF": 71.0,
+        "AVG": 71.0,
+        "seconds": 40.0
+      }
+    },
+    "idpc_80x160x1490468.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 81.0,
+        "AVG": 81.4,
+        "seconds": 24.0
+      },
+      "MFEA": {
+        "BF": 81.0,
+        "AVG": 81.0,
+        "seconds": 90.0
+      }
+    },
+    "idpc_80x40x175762.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 82.0,
+        "AVG": 85.8,
+        "seconds": 4.0
+      },
+      "MFEA": {
+        "BF": 82.0,
+        "AVG": 82.0,
+        "seconds": 23.0
+      }
+    },
+    "idpc_80x80x512000.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 85.0,
+        "AVG": 88.4,
+        "seconds": 10.0
+      },
+      "MFEA": {
+        "BF": 82.0,
+        "AVG": 82.0,
+        "seconds": 40.0
+      }
+    },
+    "idpc_90x180x1644367.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 91.0,
+        "AVG": 92.1,
+        "seconds": 33.0
+      },
+      "MFEA": {
+        "BF": 91.0,
+        "AVG": 91.0,
+        "seconds": 50.0
+      }
+    },
+    "idpc_90x45x260195.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 95.0,
+        "AVG": 102.0,
+        "seconds": 6.0
+      },
+      "MFEA": {
+        "BF": 93.0,
+        "AVG": 93.2,
+        "seconds": 56.0
+      }
+    },
+    "idpc_90x90x729000.idpc": {
+      "set": "set2",
+      "EA": {
+        "BF": 91.0,
+        "AVG": 91.7,
+        "seconds": 13.0
+      },
+      "MFEA": {
+        "BF": 91.0,
+        "AVG": 91.0,
+        "seconds": 114.0
+      }
+    }
+  },
+  "table_II": {
+    "set1": {
+      "instances": 24,
+      "NIB": 18,
+      "NIE": 6,
+      "maximum_RPD": 41.7,
+      "average_RPD": 13.2
+    },
+    "set2": {
+      "instances": 18,
+      "NIB": 17,
+      "NIE": 1,
+      "maximum_RPD": 15.8,
+      "average_RPD": 4.6
+    }
+  },
+  "convergence": {
+    "instances": [
+      "idpc_100x100x1000000.idpc",
+      "idpc_50x100x285357.idpc"
+    ],
+    "normalization_reference_doi": "10.1109/TEVC.2015.2458037",
+    "normalization_reference_url": "https://memetic-computing.org/publication/journal/Multifactorial_Evolution_ONLINE_VERSION.pdf",
+    "normalization_reference_page": 10
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/longnh176040/MFEA-IDPC-DU",
+  "commit": "f7677dcb7a7d40974677633b23cb7ee84a9a05ce",
+  "commit_date": "2020-09-16T08:14:16Z",
+  "commit_author": {
+    "name": "longnh176040",
+    "email": "45277447+longnh176040@users.noreply.github.com",
+    "date": "2020-09-16T08:14:16Z"
+  },
+  "archive_sha256": "229d575491a686fafbf7931fc7eef44f2db4a5fe1e6e8423aea788c15cced8dd",
+  "provenance_note": "Public related Java implementation; affiliation with CEC 2020 authors not yet established."
+}

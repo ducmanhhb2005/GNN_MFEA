@@ -1,0 +1,13 @@
+{
+  "repo": "https://github.com/wind123mountain/EvolutionComputation",
+  "commit": "8468c57a750f6d3d3e1b58485ace8cd096eee832",
+  "commit_date": "2022-02-12T11:20:27Z",
+  "provenance_note": "Related independent implementation with domain-priority encoding, different from the CEC 2020 node-priority / edge-index encoding. Local copies retain reference source files only, without experimental result traces.",
+  "files": {
+    "README.md": "7b381709a15d340527d3b6bceca50aca576d470ee3244018aa04a53bf2da8ce4",
+    "IDPCDU/BuildGraph.py": "a8315b378aa87dad5b69162ebbcdad1381661da94dfe92df511fcb0cca7cdaac",
+    "IDPCDU/SR_EncodingV1.py": "79112c937c2615e055f70f98601de98407f74ba826f51cfca79b415d7cefdb37",
+    "IDPCDU/SR_MFEA_for_real.py": "e02d1d9c1e60dde0ed90792bbba897d85fa256f010d2a96d99b90208d042b941",
+    "IDPCDU/GA.py": "7edcc42312324f0456a3dc39da1960093dc0ed2a65439f954390df0f5f55873d"
+  }
+}

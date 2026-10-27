@@ -1,0 +1,218 @@
+{
+  "config": {
+    "runs": 30,
+    "seed": 100,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "grouping": "adjacent",
+    "methods": [
+      "ea",
+      "mfea"
+    ],
+    "groups": [
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x20x2713.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x30x12111.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x40x26104.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x50x57147.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x60x89772.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x70x123585.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x80x130681.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x90x322081.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x10x1000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x15x3375.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x20x8000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x25x15625.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x30x27000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x35x42875.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x40x64000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x45x91125.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x5x425.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x7x1504.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x10x2492.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x12x4817.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x15x10025.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x17x13934.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x20x18485.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x22x43769.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x100x285357.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x120x434337.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x140x923343.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x160x1490468.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x180x1644367.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x200x2296097.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x50x125000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x60x216000.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x70x343000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x80x512000.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x90x729000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x100x1000000.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x25x38961.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x30x99470.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x35x120810.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x40x175762.idpc"
+      ],
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x45x260195.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x50x461319.idpc"
+      ]
+    ],
+    "files": [
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x10x1000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x20x2713.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x5x425.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x15x3375.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x30x12111.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x7x1504.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x10x2492.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x20x8000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x40x26104.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x12x4817.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x25x15625.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x50x57147.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x15x10025.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x30x27000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x60x89772.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x17x13934.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x35x42875.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x70x123585.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x20x18485.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x40x64000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x80x130681.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x22x43769.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x45x91125.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x90x322081.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x100x1000000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x200x2296097.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x50x461319.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x100x285357.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x25x38961.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x50x125000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x120x434337.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x30x99470.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x60x216000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x140x923343.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x35x120810.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x70x343000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x160x1490468.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x40x175762.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x80x512000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x180x1644367.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x45x260195.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x90x729000.idpc"
+    ]
+  },
+  "dataset_sha256": {
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x10x1000.idpc": "e802da2c0d63d53e08cff46d7c9a0389649547d8bec9084ca19ba9631cf7dc31",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x20x2713.idpc": "11857365e308c92b3249a458ea6fdb61a08a2423dacab59a57a2ea27002baa13",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_10x5x425.idpc": "57d5e9cd9e85f9c2ec28b44ee0ef7c38c4f0806866b074ca40c1e80deabff436",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x15x3375.idpc": "1173e5c448295021bb0eaf1f0f3eafb935939f1a4c19059c16cc88fd1b44719f",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x30x12111.idpc": "e6e1efce1b5bc441225973d83dcc3664f951928dd94f0d46dc89a8f4ed05d91d",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_15x7x1504.idpc": "394fba57051baecafdafffd398249a9fd26c7b0e361b89dc3d63c42c5d4bbfe0",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x10x2492.idpc": "00bd860a271b500b0713031eb737e1df84c08996ae66b8a14afb99962f401281",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x20x8000.idpc": "d685b2ae84f7b1c752df856618fce60b28f3d1f3aaa8e1d433593f3358f85cda",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_20x40x26104.idpc": "89d48fb3d8b230c43702c9a0752e877483dcdb5d028f1962c44e2ebf42ad5883",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x12x4817.idpc": "5e2a51eca731a8eab793447f85836858b93a7dade409d1b07a9ebae0b7599c31",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x25x15625.idpc": "94f94bd26fc02ed8c27de42bbbc5dc2474ade947039436512c93b7d1ed9c7eea",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_25x50x57147.idpc": "18a71c590a4852a36899572af9706d81e90bc016b4e67293ba6d62644fcaa4a2",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x15x10025.idpc": "bc0ac275464a8acf5cc1a711eb653968535b62404a8dd856834380eb67e0bdf8",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x30x27000.idpc": "bb21fbce8df1336dce85e26d50b5f13350eba056a5f5583af2b84487ba161cd9",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_30x60x89772.idpc": "e6dc862e5114e7235843d5ab77498ad693a6d12cbbedbc82435bb2aa59bbbe98",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x17x13934.idpc": "689973250b971faf02ae15538bf45c7ca3c50a83fe55270be6f17590422eff40",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x35x42875.idpc": "89087cb8e536922a6e1e007c343c4f3652b40376770eef5005dbdd01babcd362",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_35x70x123585.idpc": "f21e19eb58f1e146cdc77224b69ab29ea18617e966079514bef92f88caf66343",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x20x18485.idpc": "4ca7a9d36b8246fcb70b5b25276e8c7316a807576ff93eea900bc8d896242c69",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x40x64000.idpc": "d1ae6dab44dbed5b25febe0b21c6f5e842e75e3c346077f185ea21e02645a825",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_40x80x130681.idpc": "7a3c39c31bb0bf4e59027ae78f53baff2f21160671961b3a2b43a76e93795cf4",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x22x43769.idpc": "3c01f5162aebf4510ec4a4cdcfe457a9ed632401aef0a61153e1e49364ebb269",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x45x91125.idpc": "7a925c31bb7a8df65ffcb209750e4c30e135eb73663c6ccfd9d9c8b5fcbdb63a",
+    "D:\\GNN_MFEA\\data\\benchmark\\set1\\idpc_45x90x322081.idpc": "300285245172f37992bac2b536c6d4ea23674483f4717a01b06945f10c28698b",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x100x1000000.idpc": "c1a905595501666565527fa92a3bd54d123284f77efb2252c5a7ff85a4548488",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x200x2296097.idpc": "032f469e854e362e9ed5293666cfae9d0b7e702b3f1d649278fc9f54b80258ed",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x50x461319.idpc": "596f0dbb1224d05efcde281d9331deb74250e37913174fc3bb2e8aa453a84ff3",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x100x285357.idpc": "a8005aa70806e27bab26eb64bfe7cee415a4d1de7a2e15cfb72ec049a1521af5",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x25x38961.idpc": "fe8a5de3d8916e94292f8d16019e49b3c6214038c43b2d19aa711d36e5693234",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x50x125000.idpc": "6e1073783399b239d230fcc4cc19f438bfdfe3af5d77c3a18c0c33081fb7a5ca",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x120x434337.idpc": "e44290a0b22f95918f1ff183d32553680e4fbda70444c83f65fbd1822c739c88",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x30x99470.idpc": "146c20909170a5cff3db51ef9fc9c5b88eaa4086dc74bddee9bd05c8b9b6e061",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_60x60x216000.idpc": "61a7d3562c87ecbf7bd8120d4ec76a9ee722ee05ddc98eaf47f90a54561f4ced",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x140x923343.idpc": "f0d37671225321c8b1a80f7ee9c707d4f3dc500db7d8d17bcde028e1add294bf",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x35x120810.idpc": "557d4d3efaab52efb340f3ff6c4700f54b4f7f6e8257f44f1ada6a5286cf5392",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_70x70x343000.idpc": "ba997d12c510156376a03599466ffdbb3827fb7ad34c190bac278f7b1c289c02",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x160x1490468.idpc": "dde8a1a6be4a4042867bccdca41f50fbc8cede8f9d720273b88c04ea36e64e6a",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x40x175762.idpc": "1438b72d068153bf383b10b57fba5572245d0004014d6e77ff47f6f75d144743",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_80x80x512000.idpc": "3d733bc601cf7fe011324591e43f915fd1b4dabea9e7519a3ae979840fe59a2a",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x180x1644367.idpc": "6984d7f545f4a25cf7ae96569bc81d73a24de04e96edf14f5670fcfe2b033b5d",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x45x260195.idpc": "eb2b328e1b2cd2732ac1712582ae1fd7bba8740f24bbc2d24cb47fb2871dc073",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_90x90x729000.idpc": "50131b39feb46a7150eaf444038de73d220722f8e37b9fe85d886a6e12821939"
+  },
+  "code_sha256": {
+    "experiments\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments\\_support\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments\\_support\\paper_report.py": "e00484b77fe18cbe33b0d34399285adf980b1b4f572808b592b6182b98cf87c6",
+    "experiments\\_support\\validate_artifacts.py": "3636f10f37cd290e57088308dca8fd9978b1d22f1a7d747ca4584f1ad5bac91f",
+    "experiments\\compare_gnn.py": "7870b5973f90d4a227011967d6d0af82ff0e3efb3ec4cc19f79f61f2cfa4161d",
+    "experiments\\metrics.py": "fa3874cda779a8c9ab1d6be592ed76b00eec8868c6afa582fa8605dc282c37ea",
+    "experiments\\run_mfea.py": "43d95c8bae462d6369f839bdd573646f0b904dad13c5a373807af23351608dad",
+    "experiments\\run_paper.py": "3766cb0dce49e9165bfd8cf8d9ff537a5f889ac4d93a7a1050b120c90e56525c",
+    "experiments\\train_gnn.py": "a2a9e4fa5c9ea49c1cb8c79c5bc292898b71cc815b927c174f0580a4e8667736",
+    "idpc_du\\__init__.py": "78952da3e4cfb9b45c0d4f15bf68fe8d44c747473eb8d81a274bf18b56342624",
+    "idpc_du\\exact.py": "7b71e5905be1a075faf62c584c9dfe6e953b2f0a982ca1dc4406cdcd9cba2b18",
+    "idpc_du\\gpa.py": "47ee2f5db575385edfc174d9730c6a353e3db8b065912df5a0f9422f0e945b0d",
+    "idpc_du\\graph.py": "ba0235ba886d31c073b3a11674994ddd5c5a40013e45c3e372a37356ccbb2d02",
+    "idpc_du\\validation.py": "2e7e8479b7a3dffed3d558d61bfaa0af97fdc5ffaabb0b595a80eba1c6d2ee1e",
+    "mfea\\__init__.py": "8613a388c14b061dd454a37652ede2e4df2897df6fd47e126f630b902df15fff",
+    "mfea\\chromosome.py": "0a2f243eae97ba3f6bad21c675a64856f9a28b996b8c60af9697dbaf2fa89be4",
+    "mfea\\operators.py": "767e34c2662efd7567190f7d926b9a5104f5d5dcb58ffa56ee42e179aeef9c00",
+    "mfea\\ranking.py": "4cfb0c532d484140b6f33e44b8328bba2d59950e5f4d2a8da0048d9a27e14dfe",
+    "mfea\\solver.py": "33c875cc36392aa0e3e9a1af5a9766f175a71897ea881615cb1b432aa282275d",
+    "experiments\\paper_reference.json": "252c76e47c69a84dc60632c8deef564e34bf1864a24bbf78883d8836be3cdaa3"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "fingerprint": "7c11f5792039b5683e127e9634e55a03c9c55867049816cc5a0ab652b855ed24",
+  "reference_doi": "10.1109/CEC48606.2020.9185701",
+  "protocol_note": "Adjacent-size pairing inferred from equal Rs values; full original grouping, RNG seeds and edge ordering not published."
+}

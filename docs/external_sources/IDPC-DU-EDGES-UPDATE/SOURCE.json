@@ -1,0 +1,12 @@
+{
+  "repo": "https://github.com/longnh176040/IDPC-DU-EDGES-UPDATE",
+  "commit": "50b05b0fcd65439a7673d1ee12f4bbcdb08c7c1c",
+  "commit_date": "2020-09-18T10:11:07Z",
+  "commit_author": {
+    "name": "longnh176040",
+    "email": "45277447+longnh176040@users.noreply.github.com",
+    "date": "2020-09-18T10:11:07Z"
+  },
+  "archive_sha256": "4ba4dd41b4028f7e715a6c517fd47a3bbcc477bd3cd490095ae468c190c61534",
+  "provenance_note": "Public related Java implementation; affiliation with CEC 2020 authors not yet established."
+}

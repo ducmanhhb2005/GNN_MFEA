@@ -1,0 +1,3851 @@
+[
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 100,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 4.595662200008519,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 20110.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 101,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 6.506744400016032,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 1,
+    "objective_min": 104.0,
+    "objective_max": 20594.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 102,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 11.19746870000381,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20474.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 103,
+    "cost": 115.0,
+    "valid": true,
+    "seconds": 10.825666400021873,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 115.0,
+    "objective_max": 20688.0,
+    "edge_ids": [
+      121342
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "20"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 104,
+    "cost": 209.0,
+    "valid": true,
+    "seconds": 5.258266199962236,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 209.0,
+    "objective_max": 20667.0,
+    "edge_ids": [
+      957491,
+      59538
+    ],
+    "nodes": [
+      23,
+      77,
+      3
+    ],
+    "domains": [
+      "9",
+      "3"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 105,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 4.17885040002875,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20365.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 106,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 7.318182799965143,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20756.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 107,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 10.064210299984552,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20844.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 108,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 6.322912500007078,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 20364.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 109,
+    "cost": 111.0,
+    "valid": true,
+    "seconds": 5.355057499953546,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 111.0,
+    "objective_max": 20408.0,
+    "edge_ids": [
+      525130
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "53"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 110,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 9.637089499970898,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20808.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 111,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 10.41371569992043,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 20278.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 112,
+    "cost": 111.0,
+    "valid": true,
+    "seconds": 4.8372346999822184,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 111.0,
+    "objective_max": 20380.0,
+    "edge_ids": [
+      525130
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "53"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 113,
+    "cost": 107.0,
+    "valid": true,
+    "seconds": 4.142364600091241,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 107.0,
+    "objective_max": 20369.0,
+    "edge_ids": [
+      2232
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "18"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 114,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 4.63610190001782,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21128.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 115,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 8.771939300000668,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20931.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 116,
+    "cost": 107.0,
+    "valid": true,
+    "seconds": 11.025763000012375,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 107.0,
+    "objective_max": 21222.0,
+    "edge_ids": [
+      492695
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "76"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 117,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 7.477729800040834,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20844.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 118,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 8.775602400070056,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20578.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 119,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 7.246944400016218,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20268.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 120,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 9.02049879997503,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20925.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 121,
+    "cost": 107.0,
+    "valid": true,
+    "seconds": 11.04786520008929,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 107.0,
+    "objective_max": 20805.0,
+    "edge_ids": [
+      2232
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "18"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 122,
+    "cost": 118.0,
+    "valid": true,
+    "seconds": 8.420445499941707,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 118.0,
+    "objective_max": 20226.0,
+    "edge_ids": [
+      503126
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "89"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 123,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 4.284482099930756,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 20509.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 124,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 4.09295469999779,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20693.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 125,
+    "cost": 115.0,
+    "valid": true,
+    "seconds": 4.109172599972226,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 115.0,
+    "objective_max": 20315.0,
+    "edge_ids": [
+      121342
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "20"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 126,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 4.16459629999008,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20459.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 127,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 4.033608299912885,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20795.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 128,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 7.041030099964701,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20088.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc",
+    "seed": 129,
+    "cost": 107.0,
+    "valid": true,
+    "seconds": 6.46492960001342,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 107.0,
+    "objective_max": 20287.0,
+    "edge_ids": [
+      492695
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "76"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 100,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 1.8952641999348998,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5127.0,
+    "edge_ids": [
+      0,
+      45207
+    ],
+    "nodes": [
+      37,
+      34,
+      18
+    ],
+    "domains": [
+      "35",
+      "81"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 101,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.8919604000402614,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5283.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 102,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 1.9898557999404147,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5071.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 103,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 1.921186299994588,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5173.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 104,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.8678426999831572,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5129.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 105,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.9247614999767393,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5162.0,
+    "edge_ids": [
+      37,
+      60222
+    ],
+    "nodes": [
+      37,
+      38,
+      18
+    ],
+    "domains": [
+      "4",
+      "5"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 106,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.895985799957998,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5162.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 107,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 1.950879400013946,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5198.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 108,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.918964400072582,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5168.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 109,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 1.922425500000827,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5225.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 110,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 1.9015236999839544,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5254.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 111,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 1.9174441000213847,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5256.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 112,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.930937199969776,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5221.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 113,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.9196197999408469,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5265.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 114,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.8929326999932528,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5256.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 115,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 1.890397600014694,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5065.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 116,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 1.912631900049746,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5013.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 117,
+    "cost": 64.0,
+    "valid": true,
+    "seconds": 1.9067244000034407,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 64.0,
+    "objective_max": 4950.0,
+    "edge_ids": [
+      205662
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "78"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 118,
+    "cost": 64.0,
+    "valid": true,
+    "seconds": 1.8912302000680938,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 64.0,
+    "objective_max": 5111.0,
+    "edge_ids": [
+      69742
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "21"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 119,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 4.49541400000453,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5145.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 120,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 2.361118600005284,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5184.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 121,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 1.9515178001020104,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5500.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 122,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.9102918999269605,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5268.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 123,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 1.8874792999122292,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5289.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 124,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 1.9146603000117466,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5387.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 125,
+    "cost": 65.0,
+    "valid": true,
+    "seconds": 1.9063616000348702,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 65.0,
+    "objective_max": 5222.0,
+    "edge_ids": [
+      121886
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "74"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 126,
+    "cost": 65.0,
+    "valid": true,
+    "seconds": 1.984020399977453,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 65.0,
+    "objective_max": 4886.0,
+    "edge_ids": [
+      121886
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "74"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 127,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.9470866000046954,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5268.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 128,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 1.9222863999893889,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5107.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "EA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_50x100x285357.idpc",
+    "seed": 129,
+    "cost": 64.0,
+    "valid": true,
+    "seconds": 1.947537799947895,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50100,
+    "evaluations": 50100,
+    "infeasible_evaluations": 0,
+    "objective_min": 64.0,
+    "objective_max": 5132.0,
+    "edge_ids": [
+      69742
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "21"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 100,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 17.490981000009924,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25047,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21136.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 101,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 22.119963699951768,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24920,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20547.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 102,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 23.21395050000865,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24954,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21010.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 103,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 19.194200499914587,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25155,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 21011.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 104,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 20.54598219995387,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24977,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20994.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 105,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 22.696542300051078,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24954,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20584.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 106,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 20.562309400062077,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24955,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 21196.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 107,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 26.049336900003254,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25100,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20940.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 108,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 14.829040199983865,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24980,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20803.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 109,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 11.389961500070058,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25087,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21248.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 110,
+    "cost": 107.0,
+    "valid": true,
+    "seconds": 15.7593989999732,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25303,
+    "infeasible_evaluations": 0,
+    "objective_min": 107.0,
+    "objective_max": 21032.0,
+    "edge_ids": [
+      2232
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "18"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 111,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 10.919324799906462,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25008,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20745.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 112,
+    "cost": 107.0,
+    "valid": true,
+    "seconds": 11.660566600039601,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25072,
+    "infeasible_evaluations": 0,
+    "objective_min": 107.0,
+    "objective_max": 20865.0,
+    "edge_ids": [
+      2232
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "18"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 113,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 12.366890199948102,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25046,
+    "infeasible_evaluations": 1,
+    "objective_min": 103.0,
+    "objective_max": 21298.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 114,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 14.29638650000561,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25096,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20326.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 115,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 16.96529930003453,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25121,
+    "infeasible_evaluations": 1,
+    "objective_min": 103.0,
+    "objective_max": 21207.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 116,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 23.1244118999457,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25018,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20990.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 117,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 12.221204000059515,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25049,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20925.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 118,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 12.975305899977684,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25101,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20941.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 119,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 17.202119500027038,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24968,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21190.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 120,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 18.593076699995436,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25159,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 21498.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 121,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 21.8901412000414,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25348,
+    "infeasible_evaluations": 1,
+    "objective_min": 103.0,
+    "objective_max": 20822.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 122,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 10.939688300015405,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24930,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20751.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 123,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 12.951231300015934,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24766,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21026.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 124,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 13.425768099958077,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24950,
+    "infeasible_evaluations": 1,
+    "objective_min": 103.0,
+    "objective_max": 21339.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 125,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 10.487335999961942,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24849,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20868.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 126,
+    "cost": 104.0,
+    "valid": true,
+    "seconds": 12.024609599960968,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25069,
+    "infeasible_evaluations": 0,
+    "objective_min": 104.0,
+    "objective_max": 20859.0,
+    "edge_ids": [
+      800656
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "8"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 127,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 16.12015730002895,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25234,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 20716.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 128,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 17.186382799991407,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 25113,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21022.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_100x100x1000000.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 129,
+    "cost": 103.0,
+    "valid": true,
+    "seconds": 23.496092700050212,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 1000000,
+    "group_evaluations": 50200,
+    "evaluations": 24972,
+    "infeasible_evaluations": 0,
+    "objective_min": 103.0,
+    "objective_max": 21057.0,
+    "edge_ids": [
+      187310
+    ],
+    "nodes": [
+      23,
+      3
+    ],
+    "domains": [
+      "7"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 100,
+    "cost": 63.0,
+    "valid": true,
+    "seconds": 17.490981000009924,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25153,
+    "infeasible_evaluations": 0,
+    "objective_min": 63.0,
+    "objective_max": 5413.0,
+    "edge_ids": [
+      65905
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "40"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 101,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 22.119963699951768,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25280,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5467.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 102,
+    "cost": 63.0,
+    "valid": true,
+    "seconds": 23.21395050000865,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25246,
+    "infeasible_evaluations": 0,
+    "objective_min": 63.0,
+    "objective_max": 5520.0,
+    "edge_ids": [
+      65905
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "40"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 103,
+    "cost": 65.0,
+    "valid": true,
+    "seconds": 19.194200499914587,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25045,
+    "infeasible_evaluations": 0,
+    "objective_min": 65.0,
+    "objective_max": 5523.0,
+    "edge_ids": [
+      43107
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "97"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 104,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 20.54598219995387,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25223,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5537.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 105,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 22.696542300051078,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25246,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5355.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 106,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 20.562309400062077,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25245,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5481.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 107,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 26.049336900003254,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25100,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5515.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 108,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 14.829040199983865,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25220,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5328.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 109,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 11.389961500070058,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25113,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5385.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 110,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 15.7593989999732,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 24897,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5327.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 111,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 10.919324799906462,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25192,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5346.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 112,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 11.660566600039601,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25128,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5425.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 113,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 12.366890199948102,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25154,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5579.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 114,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 14.29638650000561,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25104,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5335.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 115,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 16.96529930003453,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25079,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5525.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 116,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 23.1244118999457,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25182,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5371.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 117,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 12.221204000059515,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25151,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5463.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 118,
+    "cost": 64.0,
+    "valid": true,
+    "seconds": 12.975305899977684,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25099,
+    "infeasible_evaluations": 0,
+    "objective_min": 64.0,
+    "objective_max": 5410.0,
+    "edge_ids": [
+      69742
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "21"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 119,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 17.202119500027038,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25232,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5481.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 120,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 18.593076699995436,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25041,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5586.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 121,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 21.8901412000414,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 24852,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5495.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 122,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 10.939688300015405,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25270,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5365.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 123,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 12.951231300015934,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25434,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5594.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 124,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 13.425768099958077,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25250,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5405.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 125,
+    "cost": 56.0,
+    "valid": true,
+    "seconds": 10.487335999961942,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25351,
+    "infeasible_evaluations": 0,
+    "objective_min": 56.0,
+    "objective_max": 5442.0,
+    "edge_ids": [
+      72519
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "96"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 126,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 12.024609599960968,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25131,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5586.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 127,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 16.12015730002895,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 24966,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5529.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 128,
+    "cost": 52.0,
+    "valid": true,
+    "seconds": 17.186382799991407,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25087,
+    "infeasible_evaluations": 0,
+    "objective_min": 52.0,
+    "objective_max": 5502.0,
+    "edge_ids": [
+      282180
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "88"
+    ]
+  },
+  {
+    "algorithm": "MFEA",
+    "instance": "idpc_50x100x285357.idpc",
+    "subset": "set2",
+    "task_group": "idpc_100x100x1000000.idpc;idpc_50x100x285357.idpc",
+    "seed": 129,
+    "cost": 54.0,
+    "valid": true,
+    "seconds": 23.496092700050212,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "edges": 285357,
+    "group_evaluations": 50200,
+    "evaluations": 25228,
+    "infeasible_evaluations": 0,
+    "objective_min": 54.0,
+    "objective_max": 5683.0,
+    "edge_ids": [
+      203526
+    ],
+    "nodes": [
+      37,
+      18
+    ],
+    "domains": [
+      "6"
+    ]
+  }
+]

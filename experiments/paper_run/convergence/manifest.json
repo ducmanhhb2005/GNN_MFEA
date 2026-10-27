@@ -1,0 +1,58 @@
+{
+  "config": {
+    "runs": 30,
+    "seed": 100,
+    "population": 100,
+    "generations": 500,
+    "rmp": 0.5,
+    "mutation_rate": 0.05,
+    "decoder": "algorithm_1",
+    "edge_order": "input",
+    "grouping": "explicit",
+    "methods": [
+      "ea",
+      "mfea"
+    ],
+    "groups": [
+      [
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x100x1000000.idpc",
+        "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x100x285357.idpc"
+      ]
+    ],
+    "files": [
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x100x1000000.idpc",
+      "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x100x285357.idpc"
+    ]
+  },
+  "dataset_sha256": {
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_100x100x1000000.idpc": "c1a905595501666565527fa92a3bd54d123284f77efb2252c5a7ff85a4548488",
+    "D:\\GNN_MFEA\\data\\benchmark\\set2\\idpc_50x100x285357.idpc": "a8005aa70806e27bab26eb64bfe7cee415a4d1de7a2e15cfb72ec049a1521af5"
+  },
+  "code_sha256": {
+    "experiments\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments\\_support\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments\\_support\\paper_report.py": "e00484b77fe18cbe33b0d34399285adf980b1b4f572808b592b6182b98cf87c6",
+    "experiments\\_support\\validate_artifacts.py": "3636f10f37cd290e57088308dca8fd9978b1d22f1a7d747ca4584f1ad5bac91f",
+    "experiments\\compare_gnn.py": "7870b5973f90d4a227011967d6d0af82ff0e3efb3ec4cc19f79f61f2cfa4161d",
+    "experiments\\metrics.py": "fa3874cda779a8c9ab1d6be592ed76b00eec8868c6afa582fa8605dc282c37ea",
+    "experiments\\run_mfea.py": "43d95c8bae462d6369f839bdd573646f0b904dad13c5a373807af23351608dad",
+    "experiments\\run_paper.py": "3766cb0dce49e9165bfd8cf8d9ff537a5f889ac4d93a7a1050b120c90e56525c",
+    "experiments\\train_gnn.py": "a2a9e4fa5c9ea49c1cb8c79c5bc292898b71cc815b927c174f0580a4e8667736",
+    "idpc_du\\__init__.py": "78952da3e4cfb9b45c0d4f15bf68fe8d44c747473eb8d81a274bf18b56342624",
+    "idpc_du\\exact.py": "7b71e5905be1a075faf62c584c9dfe6e953b2f0a982ca1dc4406cdcd9cba2b18",
+    "idpc_du\\gpa.py": "47ee2f5db575385edfc174d9730c6a353e3db8b065912df5a0f9422f0e945b0d",
+    "idpc_du\\graph.py": "ba0235ba886d31c073b3a11674994ddd5c5a40013e45c3e372a37356ccbb2d02",
+    "idpc_du\\validation.py": "2e7e8479b7a3dffed3d558d61bfaa0af97fdc5ffaabb0b595a80eba1c6d2ee1e",
+    "mfea\\__init__.py": "8613a388c14b061dd454a37652ede2e4df2897df6fd47e126f630b902df15fff",
+    "mfea\\chromosome.py": "0a2f243eae97ba3f6bad21c675a64856f9a28b996b8c60af9697dbaf2fa89be4",
+    "mfea\\operators.py": "767e34c2662efd7567190f7d926b9a5104f5d5dcb58ffa56ee42e179aeef9c00",
+    "mfea\\ranking.py": "4cfb0c532d484140b6f33e44b8328bba2d59950e5f4d2a8da0048d9a27e14dfe",
+    "mfea\\solver.py": "33c875cc36392aa0e3e9a1af5a9766f175a71897ea881615cb1b432aa282275d",
+    "experiments\\paper_reference.json": "252c76e47c69a84dc60632c8deef564e34bf1864a24bbf78883d8836be3cdaa3"
+  },
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "fingerprint": "7109897bcc639bd4baa4b6fa1210a031b15e59e1285a76d8ff11e211a53ad718",
+  "reference_doi": "10.1109/CEC48606.2020.9185701",
+  "protocol_note": "Adjacent-size pairing inferred from equal Rs values; full original grouping, RNG seeds and edge ordering not published."
+}

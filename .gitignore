@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+.DS_Store
+*.tmp
+# Temporary model files
+models/*.scratch.pt
+
+# Optional local PDF extraction tooling
+.codex_deps/

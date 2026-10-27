@@ -1,0 +1,32 @@
+{
+  "formula": "(f - minimum) / (maximum - minimum)",
+  "extrema_source": "All evaluated finite candidate objectives across both EA and MFEA and all runs, including initialization",
+  "aggregation": "Normalize, average tasks within each seed, then average seeds",
+  "constant_task_policy": "0 when maximum == minimum",
+  "infeasible_policy": "Exclude infinite candidates only from finite extrema; an infinite best remains missing and invalidates its aggregate mean",
+  "reference": {
+    "instances": [
+      "idpc_100x100x1000000.idpc",
+      "idpc_50x100x285357.idpc"
+    ],
+    "normalization_reference_doi": "10.1109/TEVC.2015.2458037",
+    "normalization_reference_url": "https://memetic-computing.org/publication/journal/Multifactorial_Evolution_ONLINE_VERSION.pdf",
+    "normalization_reference_page": 10
+  },
+  "tasks": {
+    "idpc_100x100x1000000.idpc": {
+      "minimum": 103.0,
+      "maximum": 21498.0,
+      "constant": false,
+      "evaluations": 2254301,
+      "infeasible_evaluations": 5
+    },
+    "idpc_50x100x285357.idpc": {
+      "minimum": 52.0,
+      "maximum": 5683.0,
+      "constant": false,
+      "evaluations": 2257699,
+      "infeasible_evaluations": 0
+    }
+  }
+}

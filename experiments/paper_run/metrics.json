@@ -1,0 +1,83 @@
+{
+  "full_published_parameters": true,
+  "instances": 42,
+  "runs": 30,
+  "matching_BF_AVG_rows": {
+    "EA": 8,
+    "MFEA": 7
+  },
+  "feasible_benchmark_runs": {
+    "EA": 1260,
+    "MFEA": 1260
+  },
+  "benchmark_path_records": 2520,
+  "convergence_path_records": 120,
+  "all_table_statistics_match": false,
+  "table_II": [
+    {
+      "subset": "set1",
+      "paired": 24,
+      "finite_pairs": 24,
+      "NIB": 14,
+      "NIE": 9,
+      "NIW": 1,
+      "rpd_pairs": 24,
+      "maximum_RPD": 7.0247933884297495,
+      "average_RPD": 0.8670481934296612,
+      "average_RPD_improved": 1.5811850193307457,
+      "paper_NIB": 18,
+      "paper_NIE": 6,
+      "paper_maximum_RPD": 41.7,
+      "paper_average_RPD": 13.2
+    },
+    {
+      "subset": "set2",
+      "paired": 18,
+      "finite_pairs": 18,
+      "NIB": 12,
+      "NIE": 0,
+      "NIW": 6,
+      "rpd_pairs": 18,
+      "maximum_RPD": 3.6796536796536734,
+      "average_RPD": 0.9458406186477997,
+      "average_RPD_improved": 1.9661028135004526,
+      "paper_NIB": 17,
+      "paper_NIE": 1,
+      "paper_maximum_RPD": 15.8,
+      "paper_average_RPD": 4.6
+    }
+  ],
+  "plots_exported": true,
+  "normalization": {
+    "formula": "(f - minimum) / (maximum - minimum)",
+    "extrema_source": "All evaluated finite candidate objectives across both EA and MFEA and all runs, including initialization",
+    "aggregation": "Normalize, average tasks within each seed, then average seeds",
+    "constant_task_policy": "0 when maximum == minimum",
+    "infeasible_policy": "Exclude infinite candidates only from finite extrema; an infinite best remains missing and invalidates its aggregate mean",
+    "reference": {
+      "instances": [
+        "idpc_100x100x1000000.idpc",
+        "idpc_50x100x285357.idpc"
+      ],
+      "normalization_reference_doi": "10.1109/TEVC.2015.2458037",
+      "normalization_reference_url": "https://memetic-computing.org/publication/journal/Multifactorial_Evolution_ONLINE_VERSION.pdf",
+      "normalization_reference_page": 10
+    },
+    "tasks": {
+      "idpc_100x100x1000000.idpc": {
+        "minimum": 103.0,
+        "maximum": 21498.0,
+        "constant": false,
+        "evaluations": 2254301,
+        "infeasible_evaluations": 5
+      },
+      "idpc_50x100x285357.idpc": {
+        "minimum": 52.0,
+        "maximum": 5683.0,
+        "constant": false,
+        "evaluations": 2257699,
+        "infeasible_evaluations": 0
+      }
+    }
+  }
+}

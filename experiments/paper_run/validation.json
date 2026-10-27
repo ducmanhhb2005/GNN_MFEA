@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-27",
+  "unique_original_instances": 42,
+  "path_records_checked": 2640,
+  "convergence_traces_checked": 2640,
+  "experiments": {
+    "benchmark": {
+      "path_records": 2520,
+      "convergence_traces": 2520,
+      "instances": 42,
+      "runs_per_instance": 30,
+      "source_versions": {
+        "experiments\\__init__.py": "current",
+        "experiments\\_support\\__init__.py": "current",
+        "experiments\\_support\\paper_report.py": "current",
+        "experiments\\_support\\validate_artifacts.py": "current",
+        "experiments\\compare_gnn.py": "current",
+        "experiments\\metrics.py": "current",
+        "experiments\\run_mfea.py": "current",
+        "experiments\\run_paper.py": "current",
+        "experiments\\train_gnn.py": "current",
+        "idpc_du\\__init__.py": "current",
+        "idpc_du\\exact.py": "current",
+        "idpc_du\\gpa.py": "current",
+        "idpc_du\\graph.py": "current",
+        "idpc_du\\validation.py": "current",
+        "mfea\\__init__.py": "current",
+        "mfea\\chromosome.py": "current",
+        "mfea\\operators.py": "current",
+        "mfea\\ranking.py": "current",
+        "mfea\\solver.py": "current",
+        "experiments\\paper_reference.json": "current"
+      },
+      "dataset_hashes_verified": true,
+      "paths_verified": true,
+      "statistics_verified": true
+    },
+    "convergence": {
+      "path_records": 120,
+      "convergence_traces": 120,
+      "instances": 2,
+      "runs_per_instance": 30,
+      "source_versions": {
+        "experiments\\__init__.py": "current",
+        "experiments\\_support\\__init__.py": "current",
+        "experiments\\_support\\paper_report.py": "current",
+        "experiments\\_support\\validate_artifacts.py": "current",
+        "experiments\\compare_gnn.py": "current",
+        "experiments\\metrics.py": "current",
+        "experiments\\run_mfea.py": "current",
+        "experiments\\run_paper.py": "current",
+        "experiments\\train_gnn.py": "current",
+        "idpc_du\\__init__.py": "current",
+        "idpc_du\\exact.py": "current",
+        "idpc_du\\gpa.py": "current",
+        "idpc_du\\graph.py": "current",
+        "idpc_du\\validation.py": "current",
+        "mfea\\__init__.py": "current",
+        "mfea\\chromosome.py": "current",
+        "mfea\\operators.py": "current",
+        "mfea\\ranking.py": "current",
+        "mfea\\solver.py": "current",
+        "experiments\\paper_reference.json": "current"
+      },
+      "dataset_hashes_verified": true,
+      "paths_verified": true,
+      "statistics_verified": true
+    }
+  }
+}
