@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "name": "tsp-5",
+      "type": "tsp",
+      "coordinates": [[0, 0], [1, 0], [1, 1], [0, 1], [0.5, 0.5]]
+    },
+    {
+      "name": "cvrp-5",
+      "type": "cvrp",
+      "coordinates": [[0, 0], [1, 0], [1, 1], [0, 1], [0.5, 0.5]],
+      "demands": [0, 2, 2, 2, 1],
+      "capacity": 4
+    }
+  ]
+}
