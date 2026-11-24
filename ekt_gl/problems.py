@@ -4,17 +4,23 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
+from typing import ClassVar
 
 import numpy as np
 
 Route = tuple[int, ...]
 
 
-def _normalise_coordinates(coordinates: np.ndarray) -> np.ndarray:
+def _normalise_coordinates(coordinates: np.ndarray, mode: str = "per_axis") -> np.ndarray:
     coordinates = np.asarray(coordinates, dtype=np.float32)
     if coordinates.ndim != 2 or coordinates.shape[1] != 2 or len(coordinates) < 3:
         raise ValueError("coordinates must have shape [node_count >= 3, 2]")
-    low, high = coordinates.min(axis=0), coordinates.max(axis=0)
+    if mode == "global":
+        low, high = coordinates.min(), coordinates.max()
+    elif mode == "per_axis":
+        low, high = coordinates.min(axis=0), coordinates.max(axis=0)
+    else:
+        raise ValueError(f"unknown coordinate normalization: {mode}")
     scale = np.maximum(high - low, 1e-8)
     return (coordinates - low) / scale
 
@@ -26,9 +32,10 @@ class RoutingTask(ABC):
     name: str
     coordinates: np.ndarray
     _distance: np.ndarray = field(init=False, repr=False)
+    _normalization: ClassVar[str] = "per_axis"
 
     def __post_init__(self) -> None:
-        self.coordinates = _normalise_coordinates(self.coordinates)
+        self.coordinates = _normalise_coordinates(self.coordinates, self._normalization)
         delta = self.coordinates[:, None, :] - self.coordinates[None, :, :]
         self._distance = np.linalg.norm(delta, axis=-1)
 
@@ -56,7 +63,13 @@ class RoutingTask(ABC):
 
 @dataclass(slots=True)
 class TSPTask(RoutingTask):
-    """Symmetric Euclidean TSP task."""
+    """Symmetric Euclidean TSP with shape-preserving scalar normalization.
+
+    A single coordinate min/max reproduces the scale of Table IX's TSP LKH
+    values. Per-axis scaling would change the underlying Euclidean problem.
+    """
+
+    _normalization: ClassVar[str] = "global"
 
     @property
     def route_nodes(self) -> tuple[int, ...]:

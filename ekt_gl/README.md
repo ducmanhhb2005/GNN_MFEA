@@ -28,7 +28,27 @@ for name, solution in result.best.items():
     print(name, solution.cost, solution.route)
 ```
 
-## Cấu trúc
+## Thí nghiệm TSP với dữ liệu paper
+
+```powershell
+python -m pip install -r requirements-tsp.txt
+python run_tsp.py --runs 3 --generations 300
+python run_tsp.py --runs 20 --generations 300
+```
+
+Runner dùng 18 instance TSPLIB trong `tsp_data/`, chia thành TSP-kro và TSP-pr
+(9 task/bộ, Table I). Chạy EKT-GL và STO, lưu nghiệm, lịch sử hội tụ,
+loss/attention và thời gian từng seed. Báo cáo ở `results/tsp/REPORT.md`,
+bảng số liệu ở `results/tsp/summary.csv`. Số liệu tham chiếu lấy từ Table II
+và IX của PDF; LKH là tham chiếu paper, không được chạy lại trong runner này.
+Cache kiểm tra source/config/data hash nên có thể tăng số seed để chạy tiếp.
+
+Luồng TSP dùng chuẩn hóa min–max chung (bảo toàn hình học) và OX quét vòng
+từ sau điểm cắt thứ hai. Luồng CVRP giữ chuẩn hóa và cách quét lai cũ để
+không thay đổi kết quả CVRP đã có. Test kiểm tra OX chuẩn giữ nguyên tour
+khi hai cha mẹ giống nhau.
+
+## Các mô-đun
 
 | Module | Vai trò |
 | --- | --- |

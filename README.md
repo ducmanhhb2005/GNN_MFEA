@@ -2,6 +2,23 @@
 
 Repo triển khai bốn thành phần của paper CEC 2020: GPA, khởi tạo cá thể, lai ghép PMX/TPX và đột biến swap/reset. Hai phương pháp được đánh giá là **EA đơn tác vụ** và **MFEA đa tác vụ**. GNN là phần mở rộng riêng của đồ án.
 
+## EKT-GL cho TSP/CVRP
+
+Mã EKT-GL nằm trong [`ekt_gl/`](ekt_gl/README.md). Benchmark TSP dùng 18 instance
+TSPLIB, tách TSP-kro và TSP-pr theo paper:
+
+```powershell
+python -m pip install -r requirements-tsp.txt
+python run_tsp.py --runs 3 --generations 300
+# Chạy tiếp đủ 20 seed theo paper, tái dùng cache đã kiểm chứng:
+python run_tsp.py --runs 20 --generations 300
+```
+
+Báo cáo: [`results/tsp/REPORT.md`](results/tsp/REPORT.md); số liệu:
+[`results/tsp/summary.csv`](results/tsp/summary.csv). Đối chiếu Table II/IX,
+kèm STO, kiểm định, thời gian và đường hội tụ. Tham khảo kết quả CVRP tại
+[`ket_qua_EKT-GL_CVRP.md`](ket_qua_EKT-GL_CVRP.md).
+
 ## Chạy toàn bộ thực nghiệm paper
 
 Tại `D:\GNN_MFEA`, Python 3.10+:

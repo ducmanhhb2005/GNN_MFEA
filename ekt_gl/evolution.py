@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from .problems import Route, RoutingTask
+from .problems import Route, RoutingTask, TSPTask
 from .routing import order_crossover, swap_mutation, two_opt
 
 if TYPE_CHECKING:
@@ -48,7 +48,10 @@ class Population:
         offspring: list[Individual] = []
         while len(offspring) < self.size:
             left, right = self._tournament(), self._tournament()
-            route = order_crossover(left.route, right.route, self._rng)
+            route = order_crossover(
+                left.route, right.route, self._rng,
+                cyclic_scan=isinstance(self.task, TSPTask),
+            )
             if self._rng.random() < mutation_rate:
                 route = swap_mutation(route, self._rng)
             route = two_opt(self.task, route, local_search_passes)

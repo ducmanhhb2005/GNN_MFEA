@@ -10,3 +10,7 @@ models/*.scratch.pt
 
 # Optional local PDF extraction tooling
 .codex_deps/
+
+# Superseded diagnostics with incompatible TSP normalization.
+results/tsp_legacy_per_axis/
+results/tsp_legacy_ox/

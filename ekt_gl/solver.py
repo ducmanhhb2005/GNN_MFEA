@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Sequence
+from typing import Callable, Sequence
 
 import numpy as np
 
@@ -34,7 +34,10 @@ class EKTGL:
     def __init__(self, config: EKTGLConfig | None = None) -> None:
         self.config = config or EKTGLConfig()
 
-    def solve(self, tasks: Sequence[RoutingTask], seed: int | None = None) -> EKTGLResult:
+    def solve(
+        self, tasks: Sequence[RoutingTask], seed: int | None = None,
+        *, progress: Callable[[int], None] | None = None,
+    ) -> EKTGLResult:
         if not tasks:
             raise ValueError("EKTGL.solve requires one or more routing tasks")
         names = [task.name for task in tasks]
@@ -63,6 +66,8 @@ class EKTGL:
                     population.evolve(self.config.mutation_rate, self.config.local_search_passes)
             for task, population in zip(tasks, populations):
                 history[task.name].append(population.best.cost)
+            if progress is not None:
+                progress(generation + 1)
 
         return EKTGLResult(
             best={task.name: population.best for task, population in zip(tasks, populations)},

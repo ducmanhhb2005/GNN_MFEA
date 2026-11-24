@@ -9,4 +9,4 @@ description = "Modular research prototype: MFEA-EDU with GNN-guided initializati
 requires-python = ">=3.10"
 
 [tool.setuptools]
-packages = ["idpc_du", "mfea", "gnn", "integration", "app", "experiments", "experiments._support"]
+packages = ["idpc_du", "mfea", "gnn", "integration", "app", "experiments", "experiments._support", "ekt_gl"]
