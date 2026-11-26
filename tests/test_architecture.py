@@ -11,16 +11,19 @@ class TestModuleBoundaries(unittest.TestCase):
         self.assertFalse((ROOT/'mfea2020.py').exists())
         self.assertFalse((ROOT/'gacob2022.py').exists())
 
-    def test_core_does_not_import_gnn_or_optimizer(self):
-        for source in (ROOT/'idpc_du').glob('*.py'):
-            parsed=ast.parse(source.read_text(encoding='utf8'))
-            for node in ast.walk(parsed):
-                if isinstance(node,ast.ImportFrom) and node.module:
-                    self.assertFalse(node.module.startswith(('gnn','integration','mfea')), source.name)
-
-    def test_gnn_does_not_import_optimizer_or_integration(self):
-        for source in (ROOT/'gnn').glob('*.py'):
-            parsed=ast.parse(source.read_text(encoding='utf8'))
-            for node in ast.walk(parsed):
-                if isinstance(node,ast.ImportFrom) and node.module:
-                    self.assertFalse(node.module.startswith(('mfea','integration')), source.name)
+    def test_baseline_does_not_import_graph_learning(self):
+        for package in ("idpc_du", "mfea"):
+            forbidden = {"ekt_gl", "torch", "numpy"}
+            if package == "idpc_du":
+                forbidden.add("mfea")
+            for source in (ROOT / package).glob("*.py"):
+                parsed = ast.parse(source.read_text(encoding="utf-8"))
+                for node in ast.walk(parsed):
+                    if isinstance(node, ast.Import):
+                        modules = [alias.name for alias in node.names]
+                    elif isinstance(node, ast.ImportFrom) and node.level == 0 and node.module:
+                        modules = [node.module]
+                    else:
+                        continue
+                    for module in modules:
+                        self.assertNotIn(module.split(".")[0], forbidden, str(source))

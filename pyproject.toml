@@ -5,8 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "gnn-mfea-idpc-du"
 version = "0.1.0"
-description = "Modular research prototype: MFEA-EDU with GNN-guided initialization"
+description = "Research implementations of EA/MFEA for IDPC-DU and EKT-GL for routing problems"
 requires-python = ">=3.10"
 
 [tool.setuptools]
-packages = ["idpc_du", "mfea", "gnn", "integration", "app", "experiments", "experiments._support", "ekt_gl"]
+packages = ["idpc_du", "mfea", "app", "experiments", "experiments._support", "ekt_gl", "ekt_gl.idpc"]

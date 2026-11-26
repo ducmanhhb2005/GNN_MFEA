@@ -1,8 +1,9 @@
 """Independently verify saved paths, traces, statistics, source and data hashes."""
 import argparse,csv,gc,hashlib,json,math
+import subprocess
 from datetime import date
 from collections import defaultdict
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from idpc_du import Graph,validate_path
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -14,19 +15,43 @@ def digest(path):
     return h.hexdigest()
 
 
-def audit_outputs(directories):
+def _verify_sources(output, expected_hashes, source_commit):
+    version = source_commit or "current"
+    versions = {}
+    for relative, expected in expected_hashes.items():
+        if source_commit is None:
+            current = ROOT / relative
+            actual = digest(current) if current.is_file() else None
+        else:
+            git_path = PureWindowsPath(relative).as_posix()
+            blob = subprocess.run(
+                ["git", "cat-file", "blob", f"{source_commit}:{git_path}"],
+                cwd=ROOT, capture_output=True,
+            )
+            actual = hashlib.sha256(blob.stdout).hexdigest() if blob.returncode == 0 else None
+        if actual != expected:
+            raise AssertionError(f"Source mismatch: {output}: {relative} ({version})")
+        versions[relative] = version
+    return versions
+
+
+def audit_outputs(directories, *, source_commit: str | None = None):
+    """Verify artifacts against the working tree or one explicit Git commit."""
+    if source_commit is not None:
+        revision = subprocess.run(
+            ["git", "rev-parse", "--verify", "--end-of-options", f"{source_commit}^{{commit}}"],
+            cwd=ROOT, capture_output=True, text=True,
+        )
+        if revision.returncode != 0:
+            raise ValueError(f"Cannot resolve source commit: {source_commit}")
+        source_commit = revision.stdout.strip()
     by_file=defaultdict(list)
     dataset_hashes={}
     reports={}
     for directory in directories:
         output=Path(directory).resolve()
         manifest=json.loads((output/'manifest.json').read_text(encoding='utf-8'))
-        versions={}
-        for relative,expected in manifest['code_sha256'].items():
-            current=ROOT/relative
-            if not current.is_file() or digest(current)!=expected:
-                raise AssertionError(f'Source changed since run: {output}: {relative}')
-            versions[relative]='current'
+        versions = _verify_sources(output, manifest["code_sha256"], source_commit)
         for filename,expected in manifest['dataset_sha256'].items():
             if filename in dataset_hashes:assert dataset_hashes[filename]==expected
             dataset_hashes[filename]=expected
@@ -99,11 +124,19 @@ def audit_outputs(directories):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('directories',nargs='+',type=Path)
-    p.add_argument('--out',type=Path,default=ROOT/'experiments/paper_run/validation.json')
-    a=p.parse_args()
-    result=audit_outputs(a.directories)
-    a.out.parent.mkdir(parents=True,exist_ok=True)
-    a.out.write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+    p.add_argument('--source-commit', help='Verify source hashes against this Git commit')
+    p.add_argument('--out', type=Path, help='Write the audit report to this path')
+    a = p.parse_args()
+    result = audit_outputs(a.directories, source_commit=a.source_commit)
+    output = a.out
+    if output is None and a.source_commit is None:
+        output = ROOT / 'experiments/paper_run/validation.json'
+    if output is not None:
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')
     print('Verified',result['path_records_checked'],'paths and',result['convergence_traces_checked'],'traces on',result['unique_original_instances'],'instances.',flush=True)
-    print('Audit:',a.out,flush=True)
+    if a.source_commit is not None:
+        print("Source revision:", a.source_commit, flush=True)
+    if output is not None:
+        print('Audit:', output, flush=True)
 if __name__=='__main__':main()

@@ -1,0 +1,3 @@
+# Python 3.10+, graph-learning dependencies for EKT-GL.
+numpy>=1.24
+torch>=2.2,<3

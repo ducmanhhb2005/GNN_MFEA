@@ -31,7 +31,7 @@ Tại `D:\GNN_MFEA`, Python 3.10+, không cần PyTorch:
 
 ```powershell
 python -m pip install -r requirements-plots.txt
-python -B -m experiments.run_paper --workers 2
+python -B -m experiments.run_paper --workers 2 --out-dir experiments/my_paper_run
 ```
 
 Lệnh thực hiện:
@@ -41,7 +41,7 @@ Lệnh thực hiện:
 3. Kiểm chứng độc lập đủ đường đi, trace, BF/AVG/STD, số đánh giá và SHA256.
 4. Xuất Tables II–IV, CSV hội tụ thô/chuẩn hóa, Figures 7–8 dạng PNG/SVG và báo cáo tổng.
 
-Đầu ra ở `experiments/paper_run/`. `--resume` tiếp tục đúng cấu hình nếu bị ngắt. `--no-plots` chỉ xuất số liệu, không cần Matplotlib. Mặc định 30 seed 100–129, 100 cá thể, 500 thế hệ, rmp 0,5, mutation rate 0,05. Thay tham số sẽ được báo cáo là chưa dùng đủ thiết lập paper.
+Bộ kết quả đã lưu nằm ở `experiments/paper_run/`. Ví dụ trên dùng `experiments/my_paper_run/` cho lần chạy mới. `--resume` tiếp tục đúng cấu hình nếu bị ngắt. `--no-plots` chỉ xuất số liệu, không cần Matplotlib. Mặc định 30 seed 100–129, 100 cá thể, 500 thế hệ, rmp 0,5, mutation rate 0,05. Thay tham số sẽ được báo cáo là chưa dùng đủ thiết lập paper.
 
 Chạy riêng benchmark:
 
@@ -80,13 +80,17 @@ Từ AVG đã in trong Tables III/IV: trung bình RPD trên toàn bộ bộ dữ
 
 AVG không loại bỏ các lần thất bại: JSON ghi null và CSV tổng hợp ghi inf. So sánh AVG theo một chữ số thập phân như bảng. Thời gian Python là thời gian chung của nhóm, không so trực tiếp với Java/i7 trong paper.
 
-Kiểm chứng độc lập đường đi, thống kê, hội tụ và SHA256 sau khi chạy:
+## Kiểm chứng bộ kết quả đã lưu
+
+Đối chiếu SHA256 của mã nguồn với commit Git `e1b78cf`, phiên bản khớp cả hai manifest của bộ kết quả CEC 2020. Trình kiểm chứng cũng đọc dữ liệu benchmark để kiểm tra SHA256, đường đi, thống kê và đường hội tụ.
 
 ```powershell
-python -B -m experiments._support.validate_artifacts experiments/paper_run/benchmark experiments/paper_run/convergence --out experiments/paper_run/validation.json
+python -B -m experiments._support.validate_artifacts experiments/paper_run/benchmark experiments/paper_run/convergence --source-commit e1b78cf87b983cb1a9a637437e478cd2fc9a4899
 ```
 
-Nguồn dữ liệu gốc, mã nguồn tìm được và các điểm khác paper được ghi tại [SOURCE_SEARCH.md](SOURCE_SEARCH.md). `exact.py` chỉ là oracle kiểm chứng bài toán nhỏ và tạo nhãn synthetic cho GNN; không được gọi trong vòng tìm kiếm MFEA.
+Lệnh trên in kết quả kiểm chứng ra terminal. Thêm `--out <đường-dẫn>` để lưu báo cáo JSON. Với thí nghiệm mới, bỏ `--source-commit` để kiểm tra hash theo mã hiện hành và dùng `--out` để lưu báo cáo cạnh kết quả của lần chạy đó.
+
+Nguồn dữ liệu gốc, mã nguồn tìm được và các điểm khác paper được ghi tại [SOURCE_SEARCH.md](SOURCE_SEARCH.md). `exact.py` phục vụ kiểm chứng nghiệm trên đồ thị nhỏ.
 
 Báo cáo cấp trên `paper_run/REPORT.md` liên kết bảng và hình; các `REPORT.md` trong từng nhánh là kết quả riêng của benchmark/C-experiment. Thời gian Rs của MFEA là thời gian chung cho nhóm; các số Python không so trực tiếp với Java/i7 trong paper.
 

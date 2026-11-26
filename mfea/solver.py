@@ -3,7 +3,7 @@ from __future__ import annotations
 import math
 import random
 from idpc_du.graph import Graph
-from idpc_du.gpa import decode_gpa
+from idpc_du.gpa import cached_gpa, decode_gpa
 from .chromosome import edge_index_limits, init_chrom
 from .operators import crossover, mutation
 from .ranking import assign_ranks
@@ -17,14 +17,14 @@ def _validate_parameters(tasks, population, generations, rmp, mutation_rate):
 
 def solve_mfea(tasks: list[Graph], seed: int = 7, population: int = 100,
                generations: int = 500, rmp: float = 0.5,
-               mutation_rate: float = 0.05, *, diagnostics: dict | None = None):
+               mutation_rate: float = 0.05, *, diagnostics: dict | None = None,
+               cache_size: int = 0):
     """MFEA with random initialization (Algorithm 2) and the paper's operators.
 
     The article omits detailed parent/tie selection and task grouping. This
     implementation uses uniform parents, random rank ties, skill inheritance,
     inherited-task offspring evaluation, and elitist scalar-fitness survival.
     These are explicit MFEA framework assumptions, not verified author code.
-    GNN initialization is exposed separately by integration.solver.
     diagnostics, when supplied, receives evaluation counts and objective extrema;
     it never affects variation, selection, or random draws.
     """
@@ -33,7 +33,8 @@ def solve_mfea(tasks: list[Graph], seed: int = 7, population: int = 100,
     limits = edge_index_limits(tasks)
     n = max(g.n for g in tasks)
     population_list = [init_chrom(n, limits, rng) for _ in range(population)]
-    return _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate, diagnostics)
+    return _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate,
+                   diagnostics, cache_size=cache_size)
 
 
 def solve_ea(task: Graph, seed: int = 7, population: int = 100,
@@ -47,7 +48,8 @@ def solve_ea(task: Graph, seed: int = 7, population: int = 100,
                       mutation_rate=mutation_rate, diagnostics=diagnostics)
 
 
-def _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate, diagnostics=None):
+def _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate, diagnostics=None,
+            *, cache_size=0):
     """Shared evolutionary loop; callers own the initialization step."""
     population = len(population_list)
     K = len(tasks)
@@ -55,9 +57,11 @@ def _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate
     minima = [math.inf] * K
     maxima = [-math.inf] * K
     infeasible = [0] * K
+    decoders = [cached_gpa(graph, cache_size) for graph in tasks] if cache_size else None
 
     def evaluate(task, chromosome):
-        score, path = decode_gpa(tasks[task], chromosome)
+        score, path = (decode_gpa(tasks[task], chromosome) if decoders is None
+                       else decoders[task](chromosome))
         counts[task] += 1
         if math.isfinite(score):
             minima[task] = min(minima[task], score)
@@ -76,6 +80,7 @@ def _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate
                 best[t] = (score, path)
     assign_ranks(population_list, K, rng=rng, initial=True)
     history = [tuple(x[0] for x in best)]
+    evaluation_history = [tuple(counts)] if diagnostics is not None else None
     for _ in range(generations):
         kids = []
         while len(kids) < population:
@@ -103,8 +108,11 @@ def _evolve(tasks, population_list, limits, rng, generations, rmp, mutation_rate
         rng.shuffle(both)
         population_list = sorted(both, key=lambda x: -x.scalar_fitness)[:population]
         history.append(tuple(x[0] for x in best))
+        if evaluation_history is not None:
+            evaluation_history.append(tuple(counts))
     if diagnostics is not None:
-        diagnostics.update(evaluations=counts, infeasible_evaluations=infeasible,
+        diagnostics.update(evaluations=counts, evaluation_history=evaluation_history,
+                           infeasible_evaluations=infeasible,
                            objective_min=[v if math.isfinite(v) else None for v in minima],
                            objective_max=[v if math.isfinite(v) else None for v in maxima])
     return best, history

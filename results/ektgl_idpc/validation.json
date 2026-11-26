@@ -1,0 +1,42 @@
+{
+  "fingerprint": "9e70ef2ad25b0c64fe3156f7e8b1e0246642446168ac09cca85fba177b158da9",
+  "checkpoints": 80,
+  "task_count": 42,
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "methods": [
+    "ektgl",
+    "individual",
+    "mfea",
+    "sto"
+  ],
+  "paths_checked": 3360,
+  "feasible_paths": 3360,
+  "traces_checked": 3360,
+  "source_hashes_verified": 26,
+  "data_hashes_verified": 42,
+  "matches_historical_mfea": 840,
+  "summary_rows_checked": 168,
+  "budget_comparisons_checked": 2520,
+  "wall_seconds": 32.4420098999999
+}

@@ -6,28 +6,22 @@ GNN_MFEA/
 │   ├── graph.py                # Đồ thị và parser dữ liệu gốc
 │   ├── validation.py           # Kiểm tra đường đi và Domain Uniqueness
 │   ├── gpa.py                  # Algorithm 1; projection ở Section IV-F
-│   └── exact.py                # Oracle kiểm chứng / nhãn GNN, ngoài bộ tối ưu
+│   └── exact.py                # Bộ giải chính xác để kiểm chứng đồ thị nhỏ
 ├── mfea/
 │   ├── chromosome.py           # Sections IV-A/B/C, Algorithm 2
 │   ├── operators.py            # Algorithms 3/4: PMX, TPX, swap/reset
 │   ├── ranking.py              # Factorial rank, skill factor, scalar fitness
 │   └── solver.py               # EA/MFEA; luôn khởi tạo ngẫu nhiên
-├── gnn/                        # Phần mở rộng học máy độc lập
-├── integration/
-│   ├── guided_initialization.py # Điểm GNN → quần thể khởi tạo
-│   └── solver.py               # solve_guided_mfea, ngoài luồng tái lập paper
+├── ekt_gl/                     # EKT-GL cho TSP/CVRP và IDPC-DU
 ├── experiments/
 │   ├── run_paper.py            # Toàn bộ Tables II–IV và Figures 7–8
 │   ├── run_mfea.py             # Chạy EA/MFEA, đối chiếu Tables III/IV
 │   ├── metrics.py              # NIB/NIE/RPD và chuẩn hóa hội tụ
 │   ├── paper_reference.json    # Số liệu paper, chỉ dùng khi báo cáo
-│   ├── train_gnn.py            # Huấn luyện GNN tổng hợp
-│   ├── compare_gnn.py          # Đối chứng baseline/heuristic/guided riêng
 │   └── _support/              # Kiểm chứng, xuất bảng và đồ thị
 ├── app/                        # python -m app mfea / exact
 ├── tests/                      # Kiểm thử bài toán, toán tử và tích hợp
 ├── data/                       # Demo và 42 bộ benchmark gốc
-├── models/                     # Checkpoint GNN tổng hợp
 └── docs/                       # PDF, hướng dẫn, nguồn tham khảo
 ```
 
@@ -39,11 +33,9 @@ GPA giữ thứ tự cạnh trong file, chọn đỉnh chưa thăm có ưu tiên
 
 ## Phụ thuộc
 
-- `idpc_du` độc lập với MFEA và GNN. GPA nhận đối tượng có `priority`/`edge_index`, không import optimizer.
-- `mfea` dùng đồ thị và GPA, không đọc bảng đáp án và không import GNN/integration.
-- `solve_mfea` chỉ tạo quần thể ngẫu nhiên theo Algorithm 2. Không có tham số truyền quần thể ngoài vào luồng tái lập.
-- `gnn` dùng đồ thị; exact chỉ tạo nhãn dữ liệu huấn luyện tổng hợp.
-- `integration.solver.solve_guided_mfea` nhận quần thể ngoài và dùng chung vòng tiến hóa. Đây là phần mở rộng GNN, không phải thuật toán trong paper.
+- `idpc_du` cung cấp đồ thị, bộ kiểm chứng đường đi và GPA. GPA nhận đối tượng có `priority` và `edge_index`.
+- `mfea` dùng đồ thị và GPA để tiến hóa từ quần thể khởi tạo ngẫu nhiên theo Algorithm 2.
+- `ekt_gl` chạy TSP/CVRP. `ekt_gl/idpc/` dùng GPA và toán tử IDPC-DU trong các quần thể EA riêng, với một mạng chung học và chuyển giao nghiệm online. Xem [thiết kế EKT-GL-IDPC-DU](KE_HOACH_EKT_GL_IDPC_DU.md).
 
 Chi tiết chọn cha mẹ, xử lý đồng hạng và ghép tác vụ chưa được paper công bố đầy đủ. Các lựa chọn đang dùng được ghi trong [REPRODUCE_PAPER.md](REPRODUCE_PAPER.md); chưa khẳng định là mã gốc tác giả.
 

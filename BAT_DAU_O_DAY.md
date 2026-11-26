@@ -22,7 +22,7 @@ Chạy đủ bài thực nghiệm:
 
 ```powershell
 python -m pip install -r requirements-plots.txt
-python -B -m experiments.run_paper --workers 2
+python -B -m experiments.run_paper --workers 2 --out-dir experiments/my_paper_run
 ```
 
-Đọc [kiến trúc](docs/ARCHITECTURE.md), [các giả định](docs/REPRODUCE_PAPER.md) và [báo cáo thực đo](experiments/paper_run/REPORT.md). `exact.py` là công cụ kiểm chứng; `gnn/` và `integration/` là phần mở rộng, đọc sau khi đã hiểu EA/MFEA.
+Đọc [kiến trúc](docs/ARCHITECTURE.md), [các giả định](docs/REPRODUCE_PAPER.md) và [báo cáo thực đo](experiments/paper_run/REPORT.md). `exact.py` phục vụ kiểm chứng đồ thị nhỏ. Hướng phát triển tiếp theo nằm trong [kế hoạch EKT-GL cho IDPC-DU](docs/KE_HOACH_EKT_GL_IDPC_DU.md).

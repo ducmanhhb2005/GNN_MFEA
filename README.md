@@ -1,6 +1,6 @@
 # Triển khai paper MFEA cho IDPC-DU
 
-Repo triển khai bốn thành phần của paper CEC 2020: GPA, khởi tạo cá thể, lai ghép PMX/TPX và đột biến swap/reset. Hai phương pháp được đánh giá là **EA đơn tác vụ** và **MFEA đa tác vụ**. GNN là phần mở rộng riêng của đồ án.
+Repo triển khai bốn thành phần của paper CEC 2020: GPA, khởi tạo cá thể, lai ghép PMX/TPX và đột biến swap/reset. Hai phương pháp được đánh giá là **EA đơn tác vụ** và **MFEA đa tác vụ**.
 
 ## EKT-GL cho TSP/CVRP
 
@@ -28,15 +28,15 @@ Tại `D:\GNN_MFEA`, Python 3.10+:
 python -m pip install -r requirements-plots.txt
 
 # Cả EA/MFEA trên 42 bộ × 30 seed và C-experiment đúng cặp trong paper
-python -B -m experiments.run_paper --workers 2
+python -B -m experiments.run_paper --workers 2 --out-dir experiments/my_paper_run
 ```
 
-Đầu ra tập trung ở `experiments/paper_run/`: Tables II–IV, đồ thị tương ứng Figures 7–8, đường đi, hội tụ, cấu hình và kiểm chứng độc lập. Sau khi hoàn tất, đọc [báo cáo tổng](experiments/paper_run/REPORT.md).
+[Báo cáo tổng](experiments/paper_run/REPORT.md) của lần chạy đã lưu gồm Tables II–IV, Figures 7–8, đường đi, hội tụ và cấu hình. Có thể [kiểm chứng bộ kết quả đã lưu qua commit Git gốc](docs/REPRODUCE_PAPER.md#kiểm-chứng-bộ-kết-quả-đã-lưu).
 
 Tiếp tục đợt chạy bị ngắt với cùng mã, dữ liệu và tham số:
 
 ```powershell
-python -B -m experiments.run_paper --workers 2 --resume
+python -B -m experiments.run_paper --workers 2 --out-dir experiments/my_paper_run --resume
 ```
 
 **Triển khai đủ thí nghiệm không đồng nghĩa tái lập thành công số liệu.** Báo cáo ghi rõ những dòng khớp BF/AVG và khoảng cách với paper. Không cắt cạnh, sửa đường đi, dùng nghiệm biết trước hay GNN trong luồng này.
@@ -62,14 +62,21 @@ python -B -m unittest discover -s tests -v
 
 `app ea` tối ưu từng đồ thị độc lập; `app mfea` tối ưu chung. Mặc định 100 cá thể, 500 thế hệ. `run_mfea` mặc định chạy cả EA và MFEA, 30 seed. Dữ liệu gốc gồm 42 bộ được giữ nguyên.
 
-## GNN
+## EKT-GL cho IDPC-DU
 
-GNN nằm trong `gnn/` và `integration/`. Checkpoint hiện dùng là `models/edge_gnn_synthetic.pt`, được huấn luyện trên dữ liệu tổng hợp; chưa chứng minh cải thiện benchmark của bản MFEA hiện tại. Khởi tạo GNN có điểm chạy riêng `integration.solver.solve_guided_mfea`; `solve_mfea` luôn khởi tạo ngẫu nhiên.
+Mỗi đồ thị có một quần thể EA riêng. Định kỳ, mạng chung học từ các đường đi elite, dự đoán điểm cạnh và tạo ứng viên chuyển giao cho từng quần thể.
 
 ```powershell
-python -m pip install -r requirements-gnn.txt
-python -m experiments.train_gnn
-python -m experiments.compare_gnn data/demo1.json data/demo2.json --runs 3
+python -m pip install -r requirements-ektgl.txt
+python -m ekt_gl.idpc data/demo1.json data/demo2.json --population 6 --generations 5 --transfer-interval 2
 ```
 
-`exact.py` chỉ phục vụ kiểm chứng bài toán nhỏ và tạo nhãn synthetic.
+Lệnh trả JSON theo từng tác vụ, gồm đường đi tốt nhất, chi phí, hội tụ, số lượt đánh giá và kết quả từng lần chuyển giao. Dùng `--set all` để nạp 42 đồ thị, hoặc thêm `--no-transfer` để chạy STO trên cùng cấu hình EA và local search. Xem [thiết kế và checklist thực nghiệm](docs/KE_HOACH_EKT_GL_IDPC_DU.md).
+
+Để chạy benchmark bốn phương pháp với seed 100–119:
+
+```powershell
+python -m experiments.run_ektgl_idpc --set all --runs 20 --seed 100 --out-dir results/ektgl_idpc
+```
+
+Thêm `--resume` để tiếp tục từ các checkpoint đã kiểm chứng. Runner lưu đường đi, thống kê, hội tụ và đối chiếu chi phí tại ngân sách GPA chung. Đọc [báo cáo 20 seed](results/ektgl_idpc/REPORT.md).

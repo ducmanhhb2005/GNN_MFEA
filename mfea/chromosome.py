@@ -3,7 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 import random
 from idpc_du.graph import Graph
-
+#Skill Factor (hệ số chuyên môn) là chỉ số của task mà một cá thể có thứ hạng tốt nhất.
+#Scalar Fitness (độ thích nghi vô hướng) là một con số thể hiện chất lượng của cá thể, được tính từ thứ hạng tốt nhất của nó. (1/ thứ hạng từ task tốt nhất của nó)
 @dataclass
 class Chromosome:
     priority: list[int]

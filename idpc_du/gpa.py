@@ -1,6 +1,8 @@
 """Growing Path Algorithm: CEC 2020, Algorithm 1 and Section IV-F."""
 from __future__ import annotations
+from functools import lru_cache
 import math
+from types import SimpleNamespace
 from typing import Protocol
 from .graph import Graph
 from .validation import validate_path
@@ -9,6 +11,29 @@ class PathChromosome(Protocol):
     """Input contract: priority and edge-index genes, independent of MFEA."""
     priority: list[int]
     edge_index: list[int]
+
+def cached_gpa(graph: Graph, cache_size: int):
+    """Memoize an unchanged GPA result by the two immutable gene sequences."""
+    @lru_cache(maxsize=cache_size)
+    def evaluate(priority, edge_index):
+        genes = SimpleNamespace(priority=priority, edge_index=edge_index)
+        return decode_gpa(graph, genes)
+
+    def decode(chromosome: PathChromosome):
+        return evaluate(tuple(chromosome.priority), tuple(chromosome.edge_index))
+
+    return decode
+
+
+def eligible_edges(pair_edges, left_domains):
+    """Preserve original edge order while excluding previously left domains."""
+    if not left_domains:
+        return pair_edges
+    compact_filter = getattr(pair_edges, "excluding_domains", None)
+    if compact_filter is not None:
+        return compact_filter(left_domains)
+    return [edge for edge in pair_edges if edge.domain not in left_domains]
+
 
 def decode_gpa(g: Graph, c: PathChromosome) -> tuple[float, list[int]]:
     """Follow Algorithm 1, including its arriving-node sigma and literal modulo.
@@ -43,8 +68,7 @@ def decode_gpa(g: Graph, c: PathChromosome) -> tuple[float, list[int]]:
             for v, pair_edges in neighbors.items():
                 if v in seen or pi[v] <= highest:
                     continue
-                allowed = ([e for e in pair_edges if e.domain not in left_domains]
-                           if left_domains else pair_edges)
+                allowed = eligible_edges(pair_edges, left_domains)
                 if allowed:
                     chosen_v, candidates, highest = v, allowed, pi[v]
         else:
@@ -55,8 +79,7 @@ def decode_gpa(g: Graph, c: PathChromosome) -> tuple[float, list[int]]:
                 pair_edges = neighbors.get(v)
                 if not pair_edges:
                     continue
-                allowed = ([e for e in pair_edges if e.domain not in left_domains]
-                           if left_domains else pair_edges)
+                allowed = eligible_edges(pair_edges, left_domains)
                 if allowed:
                     chosen_v, candidates = v, allowed
                     break
