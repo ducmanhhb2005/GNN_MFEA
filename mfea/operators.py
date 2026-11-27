@@ -7,13 +7,15 @@ def pmx_one(p1:list[int], p2:list[int], a:int, b:int)->list[int]:
     n=len(p1)
     c=[None]*n
     c[a:b]=p1[a:b]
+    fixed = set(p1[a:b])
+    inverse = {value: i for i, value in enumerate(p2)}
     for i in range(a,b):
-        if p2[i] in c:
+        if p2[i] in fixed:
             continue
         value=p2[i]
         position=i
         while a <= position < b:
-            position=p2.index(p1[position])
+            position=inverse[p1[position]]
         c[position]=value
     for i in range(n):
         if c[i] is None:

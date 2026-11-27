@@ -9,4 +9,4 @@ description = "Research implementations of EA/MFEA for IDPC-DU and EKT-GL for ro
 requires-python = ">=3.10"
 
 [tool.setuptools]
-packages = ["idpc_du", "mfea", "app", "experiments", "experiments._support", "ekt_gl", "ekt_gl.idpc"]
+packages = ["idpc_du", "mfea", "app", "experiments", "experiments._support", "ekt_gl", "ekt_gl.idpc", "ekt_gl.idpc.v2", "ekt_gl.idpc.research"]

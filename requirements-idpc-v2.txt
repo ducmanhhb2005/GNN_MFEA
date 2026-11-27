@@ -1,0 +1,4 @@
+-r requirements-ektgl.txt
+numba>=0.61
+scipy>=1.11
+matplotlib>=3.9

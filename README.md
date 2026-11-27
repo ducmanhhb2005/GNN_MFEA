@@ -2,6 +2,9 @@
 
 Repo triển khai bốn thành phần của paper CEC 2020: GPA, khởi tạo cá thể, lai ghép PMX/TPX và đột biến swap/reset. Hai phương pháp được đánh giá là **EA đơn tác vụ** và **MFEA đa tác vụ**.
 
+
+**Benchmark IDPC-DU V2** dùng EA thuần, MFEA-EDU và EKT-GL-IDPC-DU. Xem [cách chạy native và matched-LS](docs/BENCHMARK_IDPC_V2.md). Bảng EKT-GL 20 seed ở phần dưới thuộc benchmark lịch sử.
+
 ## EKT-GL cho TSP/CVRP
 
 Mã EKT-GL nằm trong [`ekt_gl/`](ekt_gl/README.md). Benchmark TSP dùng 18 instance
